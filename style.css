@@ -1,0 +1,234 @@
+html, ul, ol {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+  }
+
+   a{
+    text-decoration: none;
+  }
+
+  nav, header, aside, section, footer, .icon{
+    background-color:#adcbb5;
+   /* background-color:#fff;*/
+  }
+
+  body{
+    /*background-color: rgb(243, 224, 197);*/
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main{
+    max-width: 100%;
+    display: flex;
+    flex: 1;
+  }
+
+  p,
+  a,
+  h1, h2, h3{
+    font-family: Helvetica, sans-serif;   
+    text-indent: 25px;
+    line-height: 30px; 
+    color:rgb(12, 46, 31);
+  }
+  /*--------------------nav-------------------------*/ 
+  nav{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    /**/
+    padding: 10px 75px;
+  }
+
+  .navigation{
+    display: flex;
+    text-decoration: none;
+  }
+
+  .navigation li{
+    list-style: none;
+    padding-right: 35px;
+  }
+
+  .navigation a:hover{
+      color: white;
+      text-decoration:underline;
+  }
+  /*--------------------header-------------------------*/ 
+  header{
+    width: 100%;
+    display: flex;
+    margin: 2px 0;
+  }
+
+  .photo_profile{
+    width: 33%;
+    padding: 20px 75px;
+  }
+
+  .photo_profile img{
+    width: 100%;
+  }
+
+  .name_profile{
+    width: 67%;
+    align-self: center;
+    text-align: center;
+    padding-right: 15%;
+  }
+  .name_profile h2{
+    color: white;
+  }
+
+  /*--------------------aside-------------------------*/ 
+  aside{
+    margin-right: 2px;
+    width: 33%;
+    padding-top: 20px;
+    margin-right: 2px;
+  }
+
+  .contacts h2{
+    text-align: left;
+  }
+  .contacts li{
+    padding-bottom: 10px;
+  }
+
+  .contacts a:hover{
+      color: white;
+      text-decoration:underline;
+  }
+  
+  .link{
+    display: flex;
+  }
+
+
+  .icon{/*--------------------прикол-------------------------*/ 
+   /* flex: 0;*/
+  }
+  .logo{
+    width: 30px;
+  }/*--------------------прикол-------------------------*/ 
+
+
+  .block{
+    padding-bottom: 40px;
+    padding-left: 75px;
+    padding-right: 30px;
+  }
+
+  .lang p{
+    text-indent: 0;
+  }
+
+  .skill_box{
+    display: flex;
+  }
+
+  .skills{
+    display: flex;
+    font-family: monospace;
+    font-size: 15px;
+    color:white;
+    font: bold;
+    left: 150px;
+    position: relative; 
+  }
+
+  .first_el{
+    left: -80px;
+    position: relative;
+  }
+
+  .skills li{
+    text-align: right;
+  }
+
+  /*--------------------main-------------------------*/ 
+  
+  section{
+      width: 67%;
+      padding-top: 20px;
+  }
+
+  #Experience p{
+    text-indent: 0;
+  }
+
+  #Video a,p{
+    margin-top: 0;
+    text-indent: 0;
+  }
+
+  /*--------------------!!!!!!!!!!!!-------------------------*/ 
+  .code{
+      overflow:auto; 
+      width: 500px; 
+      height:auto;
+      font-size: 15px;
+      color:white; 
+      background-color:rgb(12, 46, 31);
+  }
+
+  /*--------------------main-My_project-------------------------*/ 
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: block; 
+    justify-content: space-between;
+  }
+
+  .link_on_page{
+    position: relative;
+    width: 100%;
+  }
+
+  .project img{
+    width: 300px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+  .project h3{
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      color:white;
+  }
+
+  .project img:hover{
+    opacity: 100%;
+    }
+
+
+  /*--------------------footer-------------------------*/ 
+  .down{
+      max-width: 100%;
+      display: flex; 
+      justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+  }
+
+  .down img{
+    height:40px;
+  }
+
+  footer{
+      width: 100%;
+      margin-top: 2px;
+      height: 60px;
+  }
